@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title> 전자정부 표준프레임워크 포탈 </title>
+	<link rel="stylesheet" href="../../styles/sm/layout.css"  type="text/css" />
+	
+	<script type="text/javascript" src="../../pages/js/common.js" ></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<!-- header -->
+		<header>
+			<div>
+				<h1>
+					<a href="#" ><img src="../../public/sm/images/layout/h1_logo.png"  alt="표준프레임워크 포털" /><img src="../../public/sm/images/layout/h1_logo_mob.png"  alt="표준프레임워크 포털" /></a>
+				</h1>
+				<nav>
+					<ul>
+						<li><a href="#" >소개</a></li>
+						<li><a href="#" >예약 서비스</a></li>
+						<li><a href="#" >알림마당</a></li>
+						<li><a href="#" >정보마당</a></li>
+					</ul>
+				</nav>
+				<div class="sitemap">
+					<a href="#" >로그인</a>
+					<a href="#" >회원가입</a>
+					<div>
+						<a href="#" class="btn">사이트맵</a>
+						<nav>
+							<div>
+								<ul>
+									<li class="on">
+										<a href="#" >소개</a>
+										<ul>
+											<li><a href="#" >소개</a></li>
+											<li><a href="#" >연혁</a></li>
+											<li><a href="#" >조직도</a></li>
+											<li><a href="#" >찾아오시는 길</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#" >예약 서비스</a>
+										<ul>
+											<li><a href="#" >전체</a></li>
+											<li><a href="#" >공간</a></li>
+											<li><a href="#" >교육/행사</a></li>
+											<li><a href="#" >장비</a></li>
+										</ul>
+									</li>
+										</ul>
+								<ul>
+									<li>
+										<a href="#" >알림마당</a>
+										<ul>
+											<li><a href="#" >공지사항</a></li>
+											<li><a href="#" >자유게시판</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#" >정보마당</a>
+										<ul>
+											<li><a href="#" >자주 묻는 질문</a></li>
+											<li><a href="#" >묻고 답하기</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="container">
+			<div>
+				<nav>
+					<ul>
+						<li><a href="#">소개</a></li>
+						<li><a href="#">연혁</a></li>
+						<li><a href="#">조직도</a></li>
+						<li class="on"><a href="#">찾아오시는 길</a></li>
+					</ul>
+				</nav>
+				<section>
+					<article class="rocation">
+						<h2>소개</h2>
+						<ul>
+							<li>홈</li>
+							<li>소개</li>
+							<li>찾아오시는 길</li>
+						</ul>
+					</article>
+
+					<article class="intro">
+						<h3>찾아오시는 길</h3>
+						<div class="img">
+							<!-- * 카카오맵 - 지도퍼가기 -->
+							<!-- 1. 지도 노드 -->
+							<div id="daumRoughmapContainer1629420315090" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+							<!--
+								2. 설치 스크립트
+								* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+							-->
+							<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+							<!-- 3. 실행 스크립트 -->
+							<script charset="UTF-8">
+								new daum.roughmap.Lander({
+									"timestamp" : "1629420315090",
+									"key" : "272wi",
+									"mapWidth" : "1000",
+									"mapHeight" : "580"
+								}).render();
+							</script>
+						</div>
+						<div class="table_view02">
+							<div class="view">
+								<dl>
+									<dt>도로명주소</dt>
+									<dd>[04513] 서울특별시 중구 세종대로 39 대한서울상공회의소 7층</dd>
+								</dl>
+								<dl>
+									<dt>지번주소</dt>
+									<dd>[04513] 서울특별시 중구 남대문로4가 45 대한서울상공회의소 7층</dd>
+								</dl>
+								<dl>
+									<dt>전화</dt>
+									<dd>1566-3598</dd>
+								</dl>
+								<dl>
+									<dt>이메일</dt>
+									<dd>egovframesupport@gmail.com</dd>
+								</dl>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+		</div>
+		
+		<!-- footer -->
+		<footer>
+			<div>
+				<ul>
+					<li><a href="#">소개</a></li>
+					<li><a href="#"><span>개인정보처리방침</span></a></li>
+					<li><a href="#">자주 묻는 질문</a></li>
+					<li><a href="#">찾아오시는 길</a></li>
+				</ul>
+				<div>
+					<div>
+						<dl>
+							<dt>대표문의메일</dt>
+							<dd><a href="mailto:egovframesupport@gmail.com">egovframesupport@gmail.com</a></dd>
+						</dl>
+						<dl>
+							<dt>대표전화</dt>
+							<dd><a href="tel:1566-3598">1566-3598(070-4448-2678)</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>호환성확인</dt>
+							<dd><a href="tel:070-4448-3673">070-4448-3673</a></dd>
+						</dl>
+						<dl>
+							<dt>교육문의</dt>
+							<dd><a href="tel:070-4448-2674">070-4448-2674</a></dd>
+						</dl>
+					</div>
+					<p>Copyright (C) 2021 Ministry of the Interior and Safety. All Rights Reserved.</p>
+				</div>
+				<span>
+					<a href="#" title="행정안전부 홈페이지로 이동합니다"><img src="../../public/sm/images/layout/logo_mois.png" alt="행정안전부"></a>
+					<a href="#" title="한국지능정보사회진흥원 홈페이지로 이동합니다"><img src="../../public/sm/images/layout/logo_nia.png" alt="한국지능정보사회진흥원"></a>
+				</span>
+				<p>(C) 표준프레임워크 포털 &nbsp;&nbsp; All Rights Reserved.</p>
+			</div>
+		</footer>
+		<!-- //footer -->
+	</div>
+
+	<script type="text/javascript">
+		func.init();
+	</script>
+</body>
+</html>
