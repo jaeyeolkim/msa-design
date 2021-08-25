@@ -815,10 +815,14 @@ footer div > span a {float:left; margin-left:35px;}
 .commentWrap .reply > div > ul {margin-top:30px;}
 .commentWrap .reply > div .writeComment {border:0; position:relative;}
 .commentWrap .reply > div .writeComment:before {content:""; width:10px; height:10px; border-left:2px solid #cccccc; border-bottom:2px solid #cccccc; position:absolute; top:10px; left:-20px;}
-.commentWrap .reply .writtenComment {border-top:1px solid #e8e8e8; padding-bottom:30px; position:relative;}
+.commentWrap .reply .writtenComment {padding: 30px 25px; border-top:1px solid #e8e8e8; position:relative;}
 .commentWrap .reply .writtenComment:before {content:""; width:10px; height:10px; border-left:2px solid #cccccc; border-bottom:2px solid #cccccc; position:absolute; top:35px; left:0px;}
 .commentWrap > a {font-size:18px; font-weight:600; display:inline-block; margin-top:30px; position:relative; padding-right:25px;}
 .commentWrap > a:after {content:""; position:absolute; top:3px; right:0; width:10px; height:10px; border-right:2px solid #333; border-bottom:2px solid #333; transform:rotate(45deg);}
+.commentWrap .reply .writtenComment .reply {border-bottom:0; padding: 90px 0 0 30px;}
+.commentWrap .reply .writtenComment .reply > a {top:30px; left:0;}
+.commentWrap .reply .writtenComment .reply > div {padding:0; border-top:0;}
+
 
 @media screen and (max-width:640px) {
 	.commentWrap {padding:25px 0 45px;}
